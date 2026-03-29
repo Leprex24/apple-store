@@ -53,7 +53,7 @@
 @endsection
 
 @push('scripts')
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBvhXKnsQEQgivUZLqwzIv-aoaOb_kg3nc&callback=initMap"></script>
+    <script src="https://maps.google.com/maps/api/js?key={{ env('GOOGLE_MAPS_API_KEY') }}&callback=initMap"></script>
     <script>
         function initMap() {
             var location = {lat: 51.2465, lng: 22.5684}; // Współrzędne Politechniki Lubelskiej
