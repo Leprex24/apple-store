@@ -1,0 +1,52 @@
+# Laravel / PHP
+/vendor/
+.env
+.phpunit.result.cache
+/.idea/
+/.vscode/
+Homestead.yaml
+Homestead.json
+
+# Laravel storage & compiled
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+!storage/.gitignore
+
+# Database
+/database/*.sqlite
+/database/*.sqlite3
+
+# Node
+/node_modules/
+/npm-debug.log*
+/yarn-error.log
+/pnpm-debug.log
+
+# Vite / build
+/public/build/
+/public/hot
+/.vite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Composer
+composer.phar
+
+# Misc
+*.env.*
+.env.backup
+.env.local
+.env.testing
+.env.production
+.idea/
+.vscode/
+*.swp
+
+# Project exclude paths
+/storage/app/
